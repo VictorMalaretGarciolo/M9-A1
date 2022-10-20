@@ -1,124 +1,125 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Almonsa</title>
-    <link rel="stylesheet" href="./css/inicio.css">
-    <script src="https://kit.fontawesome.com/01c63b4a5d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/inicio.css" />
 </head>
 
 <body>
-    <!-- barra superior -->
-    <div id="click">
-        <i id="iconoarriba" class="fa-solid fa-utensils"></i>
-        <i id="iconorepuesto" class="fa-solid fa-martini-glass"></i>
-        <a href="#" class="button">Presentación</a>
-        <a href="#" class="button">Menú</a>
-        <a href="#" class="button">Reservas</a>
-        <a href="#" class="button">Nostros</a>
-        <div>
-            <h4>Num:692391902</h4>
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"><i class="fa-brands fa-whatsapp" href='URL de la red social'></i> </a>
-            <i class="fa-brands fa-twitter" href='URL de la red social'></i>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="inicio.html">Home</a></li>
+                <li><a href="comidafria.html">Comida Fría</a></li>
+                <li><a href="comidacaliente.html">Comida Caliente</a></li>
+                <li><a href="bebidas.html">Bebidas</a></li>
+            </ul>
+            <h1 class="logo">FT</h1>
         </div>
-    </div>
-    </div>
-    <!-- texto -->
-    <div class="row">
-        <div class="twocolumn">
-            <div class="column">
-                <h4>Almansa es un espacio que fundamos con la idea de disfrutar de los pequeños placeres que nos hacen felices: la cerveza, los amigos, los buenos snacks y la buena música.</h4>
-                </br>
-                </br>
-                <div class="slideshow-container">
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Food Truck</h1>
+            <p>Eat what you want and wherever.</p>
+        </div>
+    </section>
 
-                    <!-- Full-width images with number and caption text -->
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">1 / 3</div> -->
-                        <img src="./foto/photo2.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">2 / 3</div> -->
-                        <img src="./foto/photo1.jpeg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides fade">
-                        <!-- <div class="numbertext">3 / 3</div> -->
-                        <img src="./foto/photo3.jpg" style="width:100%">
-                    </div>
-
-                    <!-- Next and previous buttons -->
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">Sobre Nosotros:</p>
+                <h2>Llevamos 10 años haciendo comida callejera para todos</h2>
+                <p>
+                    Uno de los aspectos positivos que conlleva la food truck es la itinerancia y movilidad que permite. Food truck también posibilita una gran adaptación en la comercialización de los alimentos y la oferta de producto dependiendo del evento o ubicación en
+                    la que se preste tu servicio.A su vez será amplio y no se ceñirá a un tipo de cliente concreto.
+                </p>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./foto/img_3.jpg" alt="food">
                 </div>
-                <br>
 
-                <!-- The dots/circles -->
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
+                <div class="mySlides fade">
+                    <img src="./foto/img_4.jpg" alt="food">
                 </div>
-                <!-- <img id="imagen1" src="https://jobtoday-prod.s3.eu-central-1.amazonaws.com/img/733e0702-5854-4f41-b94f-85c968f29981/1140x640.jpg" /> -->
+
+                <div class="mySlides fade">
+                    <img src="./foto/img_5.jpg" alt="food">
+                </div>
             </div>
-            <div class="column">
-                <h2>Almansa:</h2>
-                </br>
-                <h4>El concepto que nos hace únicos, La calidad y la originalidad son marca de la casa. Una de las claves del éxito de la carta es el pan de receta patentada y que además se hornea en el momento en que el cliente hace el pedido.</h4>
-            </div>
-        </div>
-    </div>
-    <div class="row2">
-        <div class="twocolumn">
-            <div class="column2">
-                </br>
-                </br>
-                <h2>Platos destacados:</h2>
-                </br>
-                <img class="imagen5" src="https://imag.bonviveur.com/emplatado-de-la-parrillada-de-verduras-a-la-plancha.jpg" />
-                <img class="imagen5" src="http://www.hamburguesaadomicilio.com/images/hamburguesa-founde-burguer-detalle.jpg" />
-                <img class="imagen5" src="https://imag.bonviveur.com/presentacion-principal-de-las-patatas-bravas.jpg" />
-                <img class="imagen5" src="https://www.cocinaabuenashoras.com/files/croquetas-de-jamon-super-jugosas.jpeg" />
-                <img class="imagen5" src="https://www.lavanguardia.com/files/article_main_microformat/uploads/2017/04/10/5e9977ae36946.jpeg" />
-            </div>
-            <div class="column2">
-                </br>
-                <h2>Carta:</h2>
-                </br>
-                <a href="./foto/Menu_Restaurante_Almansa.pdf" target="_blank" class="button">Ver menu</a>
+            <br>
+            <div style="visibility: hidden;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="twocolumn">
-            <div class="column">
-                </br>
-                </br>
-                <h2>¿Dónde estamos ubicados?</h2>
-                <br>
-                <h4>Carrer del Bosc, 08521 Bellavista, Barcelona</h4>
-                </br>
-                <br>
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.758829012612!2d2.296190515393538!3d41.617726579243715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7d4b0974f17%3A0xe51745f0c1df7360!2sCarrer%20del%20Bosc%2C%2008521%20Bellavista%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1664549959371!5m2!1ses!2ses"></iframe>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="column">
-                </br>
-                <h2>Horario:</h2>
-                <br>
-                <h4>Abrimos de martes a domingo</h4>
-                <h4>Lunes cerrado</h4>
-                <br>
-                <br>
-                <img id="imagen17" src="https://media-cdn.tripadvisor.com/media/photo-s/1a/06/1c/a4/restaurante.jpg" />
-            </div>
-        </div>
-    </div>
-    <script src="./js/slider.js"></script>
+    </section>
 </body>
+<!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on("click", function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $("html, body").animate({
+                        scrollTop: $(hash).offset().top,
+                    },
+                    800,
+                    function() {
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    }
+                );
+            } // End if
+        });
+    });
+
+
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
 
 </html>
